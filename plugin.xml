@@ -3,13 +3,13 @@
 <plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
     xmlns:android="http://schemas.android.com/apk/res/android"
     id="cordova-plugin-logtofile"
-    version="1.1.1.os">
+    version="1.1.2">
     <name>Log to Filesystem Plugin</name>
-    <description>Cordova-Plugin logs to a logfile in filesystem</description>
+    <description>Modified version of Cordova-Plugin. Allows to log to a logfile in filesystem</description>
     <keywords>logger, log, logfile, local, log4j</keywords>
     <license>MIT</license>
-    <repo>https://github.com/andischerer/cordova-plugin-logtofile.git</repo>
-    <issue>https://github.com/andischerer/cordova-plugin-logtofile/issues</issue>
+    <repo>https://github.com/outsystems/cordova-plugin-logtofile.git</repo>
+    <issue>https://github.com/outsystems/cordova-plugin-logtofile/issues</issue>
 
     <js-module src="www/logtofile.js" name="logtofile">
         <clobbers target="logToFile" />
